@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++14",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.in"
+                
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+            },
+            {
+                "label": "compile and run",
+                "type": "shell",
+                "command" : "g++ -std = c++17 -o ${fileBasenameNoExtension}.out",
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+
+
+            }
+
+        
+    ]
+}
