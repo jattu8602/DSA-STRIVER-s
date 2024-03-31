@@ -1,0 +1,10 @@
+1 simple java program
+2 print integer in java
+3 Command line argument 
+4 how to get Using input Scanner Proogram in java
+5 how to convert fahrenheit to celcius  program in java
+6 how to swap 2 no using 3rd variable program in java
+7 how to swap 2 no without using 3rd variable program in java
+8 how to add two numbers
+9 find largest number in java
+10 if else caluse in java
