@@ -8,6 +8,7 @@ public class switchDays {
         
         System.out.print("Enter a number (1-7): ");
         day = scanner.nextInt();
+        
 
         switch (day) {
             case 1:
