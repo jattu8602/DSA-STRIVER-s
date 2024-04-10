@@ -3,7 +3,7 @@
 using namespace std;
    
 int main(){
-    int n = 15;
+    int n = 20;
     //for upper part
     int space  = 2*n-2;
     for(int i = 1; i<=n;i++){
