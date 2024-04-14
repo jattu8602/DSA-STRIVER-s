@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="light-theme">
+    <script>alert('Hello World')</script>
+    <h1>Task List</h1>
+    <p id="msg">Current tasks:</p>
+    <ul>
+      <li class="list">Add visual styles</li>
+      <li class="list">Add light and dark themes</li>
+      <li>Enable switching the theme</li>
+    </ul>
+    <div>
+        <button class="btn">Dark</button>
+      </div>
+      <script src="js.js"></script>
+      .btn {
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+      }
+      .btn {
+        position: absolute;
+        top: 20px;
+        left: 250px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: none;
+        color: var(--btnFontColor);
+        background-color: var(--btnBg);
+      }
+      .light-theme {
+        --bg: var(--green);
+        --fontColor: var(--black);
+        --btnBg: var(--black);
+        --btnFontColor: var(--white);
+      }
+      
+      .dark-theme {
+        --bg: var(--black);
+        --fontColor: var(--green);
+        --btnBg: var(--white);
+        --btnFontColor: var(--black);
+      }
+  <script src="js.js"></script>  
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>

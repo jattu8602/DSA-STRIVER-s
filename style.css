@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.entry {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.serial-number {
+    font-weight: bold;
+}
+
+.notes textarea,
+.text-block textarea,
+.link-block input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.image-upload input {
+    margin-bottom: 10px;
+}

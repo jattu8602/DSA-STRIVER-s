@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="entry">
+            <div class="serial-number">1.</div>
+            <div class="notes">
+                <textarea placeholder="Enter your notes here..."></textarea>
+            </div>
+            <div class="image-upload">
+                <input type="file" accept="image/*">
+            </div>
+            <div class="text-block">
+                <textarea placeholder="Enter text here..."></textarea>
+            </div>
+            <div class="link-block">
+                <input type="text" placeholder="Enter a link...">
+            </div>
+        </div>
+    </div>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <div class="notes">
+            <textarea name="notes" placeholder="Enter your notes here..."></textarea>
+        </div>
+        <div class="image-upload">
+            <input type="file" name="image" accept="image/*">
+        </div>
+        <div class="text-block">
+            <textarea name="text" placeholder="Enter text here..."></textarea>
+        </div>
+        <div class="link-block">
+            <input type="text" name="link" placeholder="Enter a link...">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
