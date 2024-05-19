@@ -19,11 +19,11 @@ int getPivot(int arr[],int n){
 
 
 }
-   
+
 int main(){
     int arr[5] = {2,3,45,56,3};
     cout<<"pivot is:"<<getPivot(arr,5);
-    
-    
+
+
     return 0;
 }
